@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitGear Supplements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <nav>
+            <div id="logo">
+                <img src="https://gymwolf.com/img/gymwolf.png" alt="Logo">
+            </div>
+            <div class="rightside">
+                <ul>
+                    <li>Register</li>
+                    <li>Sign In</li>
+                    <li>&#128269;</li>
+                </ul>
+            </div>
+        </nav>
+        
+        <header>
+            <h1>FitGear Supplements</h1>
+            <p>Premium Quality Sports Nutrition Products</p>
+        </header>
+        
+        <main class="products-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400" alt="Whey Protein">
+                <h2>Whey Protein Isolate</h2>
+                <p class="price">₹2,499</p>
+                <p class="description">Premium whey isolate with 27g protein per serving, 2kg</p>
+                <button onclick="addToCart('Whey Protein Isolate', 2499)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=400" alt="BCAA">
+                <h2>BCAA Energy Drink</h2>
+                <p class="price">₹999</p>
+                <p class="description">Branched-chain amino acids with natural caffeine, 30 servings</p>
+                <button onclick="addToCart('BCAA Energy Drink', 999)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1594882645126-14020914d58d?w=400" alt="Pre-Workout">
+                <h2>Pre-Workout Formula</h2>
+                <p class="price">₹1,499</p>
+                <p class="description">Advanced pre-workout with creatine and beta-alanine</p>
+                <button onclick="addToCart('Pre-Workout Formula', 1499)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?w=400" alt="Mass Gainer">
+                <h2>Mass Gainer</h2>
+                <p class="price">₹1,999</p>
+                <p class="description">High-calorie mass gainer with 1250 calories per serving</p>
+                <button onclick="addToCart('Mass Gainer', 1999)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400" alt="Multivitamin">
+                <h2>Multivitamin Pack</h2>
+                <p class="price">₹799</p>
+                <p class="description">Complete daily multivitamin for athletes, 60 tablets</p>
+                <button onclick="addToCart('Multivitamin Pack', 799)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1579722820308-d74e571900a9?w=400" alt="Creatine">
+                <h2>Creatine Monohydrate</h2>
+                <p class="price">₹899</p>
+                <p class="description">Pure micronized creatine powder, 500g</p>
+                <button onclick="addToCart('Creatine Monohydrate', 899)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=400" alt="Fish Oil">
+                <h2>Fish Oil Omega-3</h2>
+                <p class="price">₹599</p>
+                <p class="description">High-strength omega-3 fish oil capsules, 90 count</p>
+                <button onclick="addToCart('Fish Oil Omega-3', 599)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1622484212850-eb596d769edc?w=400" alt="Protein Bars">
+                <h2>Protein Bars Pack</h2>
+                <p class="price">₹999</p>
+                <p class="description">20g protein bars, variety pack of 12</p>
+                <button onclick="addToCart('Protein Bars Pack', 999)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=400" alt="Casein">
+                <h2>Casein Protein</h2>
+                <p class="price">₹2,299</p>
+                <p class="description">Slow-release protein for overnight recovery, 1kg</p>
+                <button onclick="addToCart('Casein Protein', 2299)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1514995669114-6081e934b693?w=400" alt="Fat Burner">
+                <h2>Fat Burner Complex</h2>
+                <p class="price">₹1,299</p>
+                <p class="description">Advanced thermogenic formula, 60 capsules</p>
+                <button onclick="addToCart('Fat Burner Complex', 1299)">Add to Cart</button>
+            </div>
+        </main>
+
+        <div id="cart-notification"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
